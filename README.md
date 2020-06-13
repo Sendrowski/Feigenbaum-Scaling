@@ -17,4 +17,6 @@ PoincarePlot.nb - Poincare plot of f
 SchwarzianDerivative.nb - plot of the Schwarzian derivative of f  
 SelfSimilarity.nb - all plots involving the self-similarity of the graph of f to higher iterates  
 Spectrum.nb - computation of the spectrum of the linearized period-doubling operator  
-UniversalFunction.nb - plots of the sequence {g_r} which converges to the universal function
+UniversalFunction.nb - plots of the sequence {g_r} which converges to the universal function  
+
+Version 12.0.0.0 has been used
