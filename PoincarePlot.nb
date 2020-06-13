@@ -1,0 +1,163 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5911,        153]
+NotebookOptionsPosition[      5488,        137]
+NotebookOutlinePosition[      5829,        152]
+CellTagsIndexPosition[      5786,        149]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", 
+    RowBox[{"r_", ",", "x_"}], "]"}], "=", 
+   RowBox[{"r", "*", "x", "*", 
+    RowBox[{"(", 
+     RowBox[{"1", "-", "x"}], ")"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"rMin", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"rMax", "=", "4"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"ParametricPlot3D", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", 
+       RowBox[{"f", "[", 
+        RowBox[{"r", ",", "x"}], "]"}], ",", 
+       RowBox[{"f", "[", 
+        RowBox[{"r", ",", 
+         RowBox[{"f", "[", 
+          RowBox[{"r", ",", "x"}], "]"}]}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", "1"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"AxesLabel", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<x\>\"", ",", "\"\<f(x)\>\"", ",", 
+        "\"\<\!\(\*SuperscriptBox[\(f\), \(2\)]\)(x)\>\""}], "}"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1"}], "}"}]}], "}"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"PlotStyle", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"Orange", ",", 
+        RowBox[{"Thickness", "[", ".01", "]"}]}], "}"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"FaceGrids", "\[Rule]", "All"}], ",", 
+     RowBox[{"FaceGridsStyle", "\[Rule]", 
+      RowBox[{"Directive", "[", 
+       RowBox[{"Gray", ",", 
+        RowBox[{"Opacity", "[", "0.3", "]"}]}], "]"}]}]}], 
+    "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"r", ",", "3"}], "}"}], ",", "rMin", ",", "rMax"}], "}"}]}], 
+  "\[IndentingNewLine]", "]"}]}], "Input",
+ CellChangeTimes->{{3.7841230319395213`*^9, 3.7841230811578655`*^9}, {
+  3.784123166079316*^9, 3.7841232984861546`*^9}, {3.784123336875619*^9, 
+  3.7841234032036104`*^9}, {3.7841234454971037`*^9, 3.7841234977653437`*^9}, {
+  3.784123562426081*^9, 3.784123652722991*^9}, {3.784123697462813*^9, 
+  3.7841238369242277`*^9}, {3.784123870993001*^9, 3.7841239102942505`*^9}, {
+  3.7841239849735518`*^9, 3.784123989635081*^9}, {3.784124034272231*^9, 
+  3.7841240676758184`*^9}, {3.7841242315799637`*^9, 3.784124252360932*^9}, {
+  3.784124293870613*^9, 3.784124302342561*^9}, {3.7841243488239822`*^9, 
+  3.7841246345700507`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"a070485e-fd88-4192-976f-5d05e755d806"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`r$$ = 3, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`r$$], 3}, 1, 4}}, Typeset`size$$ = {
+    360., {195., 201.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`r$6330$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`r$$ = 3}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`r$$, $CellContext`r$6330$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> ParametricPlot3D[{$CellContext`x, 
+         $CellContext`f[$CellContext`r$$, $CellContext`x], 
+         $CellContext`f[$CellContext`r$$, 
+          $CellContext`f[$CellContext`r$$, $CellContext`x]]}, {$CellContext`x,
+          0, 1}, AxesLabel -> {
+         "x", "f(x)", "\!\(\*SuperscriptBox[\(f\), \(2\)]\)(x)"}, 
+        PlotRange -> {{0, 1}, {0, 1}, {0, 1}}, PlotStyle -> {Orange, 
+          Thickness[0.01]}, FaceGrids -> All, FaceGridsStyle -> 
+        Directive[Gray, 
+          Opacity[0.3]]], "Specifications" :> {{{$CellContext`r$$, 3}, 1, 4}},
+       "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{411., {242., 248.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.8010347496130524`*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"3eca4727-dca9-43d1-8ed1-f6a1472020bd"]
+}, Open  ]]
+},
+WindowSize->{958, 988},
+WindowMargins->{{-7, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 2779, 69, 299, "Input",ExpressionUUID->"a070485e-fd88-4192-976f-5d05e755d806"],
+Cell[3362, 93, 2110, 41, 566, "Output",ExpressionUUID->"3eca4727-dca9-43d1-8ed1-f6a1472020bd"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
