@@ -8,6 +8,7 @@ The file 'getFeigenbaum.wl' is a package and needs to be included in a directory
 
 The following files can be found:  
 CobwebPlot.nb - creation of the cobweb plots  
+Feigenbaum Scaling.pdf - the written presentation of the thesis  
 Feigenvalues.nb - computation of the generalized Feigenvalues and a plot of the superstable fixed-point equation  
 FinalStateDiagram.nb - creation of all final-state diagrams  
 getFeigenbaum.wl - computation of the Feigenvalues via the direct method  
