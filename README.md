@@ -4,7 +4,7 @@ Mathematica code supplementary to a bachelor’s thesis about Feigenbaum scaling
 The code generates all diagrams that can be found in 'figures'.  
 It also computes the spectrum of the linearized peiod-doublding operater and the Feigenvalues via the direct method  
 
-The file 'getFeigenbaum.wl' is a package and needs to be included in a directory contained in $Path  
+The file 'getFeigenbaum.wl' is a package and needs to be included in a directory contained in $PATH  
 
 The following files can be found:  
 CobwebPlot.nb - creation of the cobweb plots  
@@ -20,4 +20,4 @@ SelfSimilarity.nb - all plots involving the self-similarity of the graph of f to
 Spectrum.nb - computation of the spectrum of the linearized period-doubling operator  
 UniversalFunction.nb - plots of the sequence {g_r} which converges to the universal function  
 
-Version 12.0.0.0 has been used
+Version 12.0.0.0 of Mathematica has been used
